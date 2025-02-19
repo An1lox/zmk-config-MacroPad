@@ -6,9 +6,9 @@
     keymap{
         compatible = "zmk,keymap";
 
-        default_layer {
+        z_layer {
             bindings = <
-                 &kp ESC  &kp LC(Z)  &kp LC(Y)  &kp DEL  &kp BSPC  
+                 &kp ESC  &kp_N1  &kp_N2  &kp DEL  &kp BSPC  
                  &mo 1    &kp_N7    &kp_N8    &kp_N9    &kp KPSLASH  
                  &kp TAB  &kp_N4    &kp_N5    &kp_N6    &kp KPASTERISK  
                  &mo 2    &kp_N1    &kp_N2    &kp_N3    &kp MINUS  
@@ -17,7 +17,7 @@
             >;
         };
 
-        single_layer {
+        f_layer {
             bindings = <  
                  &trans  &trans  &trans  &trans  &trans  
                  &trans  &trans  &trans  &trans  &trans  
@@ -28,7 +28,7 @@
             >;
         };
 
-        double_layer {
+        s_layer {
             bindings = <
                  &trans  &trans  &trans  &trans  &trans  
                  &trans  &trans  &trans  &trans  &trans  
