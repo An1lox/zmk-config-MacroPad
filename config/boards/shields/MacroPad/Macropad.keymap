@@ -1,0 +1,53 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
+/ {
+    keymap{
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                 &kp ESC  &kp LC(Z)  &kp LC(Y)  &kp DEL  &kp BSPC  
+                 &mo 1    &kp_N7    &kp_N8    &kp_N9    &kp KPSLASH  
+                 &kp TAB  &kp_N4    &kp_N5    &kp_N6    &kp KPASTERISK  
+                 &mo 2    &kp_N1    &kp_N2    &kp_N3    &kp MINUS  
+                 &kp LSHFT &kp_N0   &kp COMMA  &kp DOT  &kp KPPLUS  
+                 &kp LCTRL &kp SPACE &kp ENTER
+            >;
+        };
+
+        single_layer {
+            bindings = <  
+                 &trans  &trans  &trans  &trans  &trans  
+                 &trans  &trans  &trans  &trans  &trans  
+                 &trans  &trans  &trans  &trans  &trans  
+                 &to 3   &trans  &trans  &trans  &trans  
+                 &trans  &trans  &trans  &trans  &trans  
+                 &trans  &trans  &trans  
+            >;
+        };
+
+        double_layer {
+            bindings = <
+                 &trans  &trans  &trans  &trans  &trans  
+                 &trans  &trans  &trans  &trans  &trans  
+                 &trans  &trans  &trans  &trans  &trans  
+                  &to 3   &trans  &trans  &trans  &trans  
+                  &trans  &trans  &trans  &trans  &trans  
+                  &trans  &trans  &trans  
+            >;
+        };
+
+        bt_layer {
+            bindings = <
+                 &to 0   &trans  &trans  &trans  &trans  
+                  &bt CLR  &bt 1  &bt 2  &bt 3  &bt 4  
+                  &trans  &trans  &trans  &trans  &trans  
+                  &trans  &trans  &trans  &trans  &trans  
+                  &trans  &trans  &trans  &trans  &trans  
+                  &trans  &trans  &trans
+            >;
+        };
+    };
+};
