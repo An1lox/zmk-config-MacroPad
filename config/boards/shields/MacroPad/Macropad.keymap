@@ -33,20 +33,20 @@
                  &trans  &trans  &trans  &trans  &trans  
                  &trans  &trans  &trans  &trans  &trans  
                  &trans  &trans  &trans  &trans  &trans  
-                  &to 3   &trans  &trans  &trans  &trans  
-                  &trans  &trans  &trans  &trans  &trans  
-                  &trans  &trans  &trans  
+                 &to 3   &trans  &trans  &trans  &trans  
+                 &trans  &trans  &trans  &trans  &trans  
+                 &trans  &trans  &trans  
             >;
         };
 
         bt_layer {
             bindings = <
                  &to 0   &trans  &trans  &trans  &trans  
-                  &bt CLR  &bt 1  &bt 2  &bt 3  &bt 4  
-                  &trans  &trans  &trans  &trans  &trans  
-                  &trans  &trans  &trans  &trans  &trans  
-                  &trans  &trans  &trans  &trans  &trans  
-                  &trans  &trans  &trans
+                 &bt CLR  &bt 1  &bt 2  &bt 3  &bt 4  
+                 &trans  &trans  &trans  &trans  &trans  
+                 &trans  &trans  &trans  &trans  &trans  
+                 &trans  &trans  &trans  &trans  &trans  
+                 &trans  &trans  &trans
             >;
         };
     };
