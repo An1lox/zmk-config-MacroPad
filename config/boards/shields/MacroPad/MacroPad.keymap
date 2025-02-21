@@ -42,7 +42,7 @@
         bt_layer {
             bindings = <
                  &to 0    &trans  &trans  &trans  &trans  
-                 &bt CLR  &bt 1   &bt 2   &bt 3   &bt 4  
+                 &BT_CLR  &BT_SEL 0   &BT_SEL 1   &BT_SEL 2   &BT_SEL 3  
                  &trans   &trans  &trans  &trans  &trans  
                  &trans   &trans  &trans  &trans  &trans  
                  &trans   &trans  &trans  &trans  &trans  
